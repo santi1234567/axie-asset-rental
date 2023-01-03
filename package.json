@@ -1,0 +1,22 @@
+{
+  "name": "axie-asset-rental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santi1234567/axie-asset-rental.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santi1234567/axie-asset-rental/issues"
+  },
+  "homepage": "https://github.com/santi1234567/axie-asset-rental#readme",
+  "dependencies": {
+    "vite": "^4.0.4"
+  }
+}

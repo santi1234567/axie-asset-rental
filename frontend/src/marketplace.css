@@ -1,0 +1,20 @@
+.axies{
+    display: grid;
+    margin:auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+
+}
+
+.axie{
+    border-radius: .5em;
+    background: rgb(94,94,94);
+background: linear-gradient(180deg, rgb(64, 64, 64) 0%, rgba(0,0,0,0) 100%);
+    margin: 1em;
+    min-width: 300px
+}
+
+.axie img {
+    width: 75%;
+}

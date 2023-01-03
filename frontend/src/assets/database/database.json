@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "parts": {
+            "eyes": "confused",
+            "ears": "pink-cheek",
+            "back": "pumpkin",
+            "mouth": "hervibore",
+            "horns": "leaf-bug",
+            "tail": "hot-butt"
+        },
+        "price": 0.02,
+        "min-days": 3,
+        "max-days": 10,
+        "image": 1,
+        "owner": "ronin:4187c9f239617dac65ba3ddedb0d62f6c477aa53"
+    },
+    {
+        "id": 2,
+        "parts": {
+            "eyes": "confused",
+            "3ars": "pink-cheek",
+            "back": "pumpkin",
+            "mouth": "hervibore",
+            "horns": "leaf-bug",
+            "tail": "hot-butt"
+        },
+        "price": 0.02,
+        "min-days": 3,
+        "max-days": 10,
+        "image": 2,
+        "owner": "ronin:4187c9f239617dac65ba3ddedb0d62f6c477aa53"
+    },
+    {
+        "id": 3,
+        "parts": {
+            "eyes": "confused",
+            "ears": "pink-cheek",
+            "back": "pumpkin",
+            "mouth": "hervibore",
+            "horns": "leaf-bug",
+            "tail": "hot-butt"
+        },
+        "price": 0.02,
+        "min-days": 3,
+        "max-days": 10,
+        "image": 3,
+        "owner": "ronin:4187c9f239617dac65ba3ddedb0d62f6c477aa53"
+    },
+    {
+        "id": 4,
+        "parts": {
+            "eyes": "confused",
+            "ears": "pink-cheek",
+            "back": "pumpkin",
+            "mouth": "hervibore",
+            "horns": "leaf-bug",
+            "tail": "hot-butt"
+        },
+        "price": 0.02,
+        "min-days": 3,
+        "max-days": 10,
+        "image": 4,
+        "owner": "ronin:4187c9f239617dac65ba3ddedb0d62f6c477aa53"
+    },
+    {
+        "id": 5,
+        "parts": {
+            "eyes": "confused",
+            "3ars": "pink-cheek",
+            "back": "pumpkin",
+            "mouth": "hervibore",
+            "horns": "leaf-bug",
+            "tail": "hot-butt"
+        },
+        "price": 0.02,
+        "min-days": 3,
+        "max-days": 10,
+        "image": 5,
+        "owner": "ronin:4187c9f239617dac65ba3ddedb0d62f6c477aa53"
+    },
+    {
+        "id": 6,
+        "parts": {
+            "eyes": "confused",
+            "ears": "pink-cheek",
+            "back": "pumpkin",
+            "mouth": "hervibore",
+            "horns": "leaf-bug",
+            "tail": "hot-butt"
+        },
+        "price": 0.02,
+        "min-days": 3,
+        "max-days": 10,
+        "image": 6,
+        "owner": "ronin:4187c9f239617dac65ba3ddedb0d62f6c477aa53"
+    },
+    {
+        "id": 7,
+        "parts": {
+            "eyes": "confused",
+            "ears": "pink-cheek",
+            "back": "pumpkin",
+            "mouth": "hervibore",
+            "horns": "leaf-bug",
+            "tail": "hot-butt"
+        },
+        "price": 0.02,
+        "min-days": 3,
+        "max-days": 10,
+        "image": 7,
+        "owner": "ronin:4187c9f239617dac65ba3ddedb0d62f6c477aa53"
+    },
+    {
+        "id": 8,
+        "parts": {
+            "eyes": "confused",
+            "3ars": "pink-cheek",
+            "back": "pumpkin",
+            "mouth": "hervibore",
+            "horns": "leaf-bug",
+            "tail": "hot-butt"
+        },
+        "price": 0.02,
+        "min-days": 3,
+        "max-days": 10,
+        "image": 8,
+        "owner": "ronin:4187c9f239617dac65ba3ddedb0d62f6c477aa53"
+    },
+    {
+        "id": 9,
+        "parts": {
+            "eyes": "confused",
+            "ears": "pink-cheek",
+            "back": "pumpkin",
+            "mouth": "hervibore",
+            "horns": "leaf-bug",
+            "tail": "hot-butt"
+        },
+        "price": 0.02,
+        "min-days": 3,
+        "max-days": 10,
+        "image": 9,
+        "owner": "ronin:4187c9f239617dac65ba3ddedb0d62f6c477aa53"
+    },
+    {
+        "id": 10,
+        "parts": {
+            "eyes": "confused",
+            "ears": "pink-cheek",
+            "back": "pumpkin",
+            "mouth": "hervibore",
+            "horns": "leaf-bug",
+            "tail": "hot-butt"
+        },
+        "price": 0.02,
+        "min-days": 3,
+        "max-days": 10,
+        "image": 10,
+        "owner": "ronin:4187c9f239617dac65ba3ddedb0d62f6c477aa53"
+    }
+]
