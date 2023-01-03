@@ -8,7 +8,9 @@
 }
 
 .axie{
-    border: 1px white solid;
+    border-radius: .5em;
+    background: rgb(94,94,94);
+background: linear-gradient(180deg, rgb(64, 64, 64) 0%, rgba(0,0,0,0) 100%);
     margin: 1em;
     min-width: 300px
 }
