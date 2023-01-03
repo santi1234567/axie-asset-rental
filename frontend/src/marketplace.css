@@ -3,12 +3,16 @@
     margin:auto;
     justify-content: space-around;
     flex-wrap: wrap;
-    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
 
 }
 
 .axie{
     border: 1px white solid;
     margin: 1em;
-    min-width: 400px
+    min-width: 300px
+}
+
+.axie img {
+    width: 75%;
 }

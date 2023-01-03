@@ -1,5 +1,5 @@
-import React, { useState, useEffect , useContext} from 'react'
-import { useParams } from "react-router-dom";
+import React, { useState, useEffect, useContext } from 'react'
+import { useParams, Link } from "react-router-dom";
 import { ethPrice } from './context/ethPriceContext'
 
 import findAxie from './functions/findAxie'
@@ -27,15 +27,18 @@ export default function AxieDetails() {
   return (
     <div >
       <Header />
+      <Link to={'/'}>
+        <h5>back to marketplace</h5>
+      </Link>
       <img src={`/images/${axieData.image}.png`} alt="" />
-            <h3>
-                Id: {axieData.id}
-            </h3>
-            <h3>price: {axieData.price} </h3>
-            <h3>
-                u$d: {axieData.price*eth}
-            </h3>
-            
+      <h3>
+        Id: {axieData.id}
+      </h3>
+      <h3>price: {axieData.price} </h3>
+      <h3>
+        u$d: {axieData.price * eth}
+      </h3>
+
       <Footer />
     </div>
 
