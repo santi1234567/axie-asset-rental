@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react'
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link , Navigate , useNavigate} from "react-router-dom";
 import { ethPrice } from './context/ethPriceContext'
 
 import findAxie from './functions/findAxie'
@@ -7,16 +7,18 @@ import Header from "./includes/Header";
 import Footer from "./includes/Footer";
 
 
-
 export default function AxieDetails() {
   const [axieData, setAxieData] = useState({})
   const { eth, setEth } = useContext(ethPrice)
+  const navigate = useNavigate();
 
   let { id } = useParams();
 
   useEffect(() => {
     let searchAxie = async () => {
       let data = await findAxie(id)
+      console.log(data);
+        if (data == undefined) return navigate('/')
       return setAxieData(data)
     }
     searchAxie()
