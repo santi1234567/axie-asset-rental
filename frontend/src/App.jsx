@@ -8,6 +8,7 @@ import call from './api/coingeckoApi'
 
 function App() {
   const { eth, setEth } = useContext(ethPrice)
+  
   useEffect(() => {
     let apiCall = async function () {
       let result = await call()
