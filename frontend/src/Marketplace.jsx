@@ -7,20 +7,22 @@ import {ethPrice} from './context/ethPriceContext'
 export default function Marketplace() {
     const [dataBase, setDataBase] = useState([])
     const {eth, setEth} = useContext(ethPrice)
-    console.log(dataBase);
+    console.log(eth);
+
     useEffect(() => {
-        setEth(1)
-        setDataBase(db), []
-    }
-    )
+        setDataBase(db)
+    }, [])
+
+    console.log(eth);
+    
     return (
         <div className='marketplace'>
             <br />
             <h2>Axies for Rental</h2>
             <div className='axies'>
                 {
-                    dataBase && dataBase.map(axie =>
-                       <Axie data={axie}/> )
+                    dataBase && dataBase.map((axie, i) =>
+                       <Axie key={i} data={axie}/> )
                 }
             </div>
             <br />
